@@ -61,6 +61,12 @@ header .button {
   background-color: var(--tealDark);
 }
 
+.button.disabled {
+  cursor: not-allowed;
+  background-color: grey;
+  pointer-events: fill;
+}
+
 h3 {
   margin-top: 0;
   color: white;
@@ -110,4 +116,10 @@ a {
 
 .inviteLink a {
   margin-top: 1em;
+}
+
+.note {
+  border: 2px solid hsl(44, 87%, 45%);
+  width: 50%;
+  margin-top: 10px;
 }
